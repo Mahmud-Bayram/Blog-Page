@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(16, 16, 16);
+}
+.container{  
+    margin: 0 8%;
+    text-align: center;
+}
+
+header{
+    background: url(./img/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span{
+    color:rgb(249, 0, 77);
+    /* rgba(255, 204, 255, 0.8); */
+}
+
+nav ul{
+    margin-top: 1.5rem;
+    list-style-type: none;
+    display: flex;
+}
+
+nav li{
+    padding: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+nav li:hover{
+    color: rgb(249, 0, 77);
+}
+.logo{
+    margin-top: 1.5rem;
+    font-size: 40px;
+}
+
+nav button{
+    color: white;
+    padding: 0.7rem 1.7rem;
+    background-color:rgb(249, 0, 77);
+    border-radius: 3rem;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 1.5rem;
+    border: 0;
+    transition: all 0.3s;
+}
+
+nav button:hover{
+    transform: scale(1.1);
+}
+
+.whoAmI{
+    color: white;
+    margin-top: 6.5rem;
+    padding-left: 8%;
+    line-height: 2rem;
+}
+
+.whoAmI .p-1{
+    font-size: 1.5rem;
+    color: rgba(255, 204, 255, 0.8);
+    font-weight: bold;
+}
+
+.whoAmI .p-2{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
+.whoAmI h2{
+    font-size: 5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.whoAmI span{
+    color:rgb(249, 0, 77);
+}
+
+.whoAmI input:first-child{
+    display: inline-block;
+    padding: 0.7rem 0.5rem;
+    width: 100%;
+    border: 2px rgb(249, 0, 77) solid;
+    border-radius: 3rem;
+    box-sizing: border-box;
+}
+
+.whoAmI input:last-child{
+    background-color: rgb(249, 0, 77);
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(0, 0, 0), rgb(133, 133, 133) 0px 0px 15px inset;
+    box-shadow: rgb(133, 133, 133) 0px 0px 15px ;
+    top: 3px;
+    right: 3px;
+    border: 0px 0px;
+    border-radius: 2rem;   
+    padding: 8px 30px;
+}
+
+.whoAmI form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+
+
+/*  About Me*/
+.About-me{
+    background-color: rgb(25, 25, 25);;
+    width: 100%;
+    margin: 0;
+    color: white;
+    letter-spacing: 2px;
+}
+.About-me img{
+    float: left;
+}
+
+.About-me .div-1{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.About-me .div-2{
+    text-align: start;
+    margin-left: 1rem;
+}
+
+.About-me h2{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.About-me h3{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.About-me span{
+    color: rgb(249, 0, 77);
+}
+
+.About-me p{
+    color: rgba(255, 204, 255, 0.8);;
+    font-size: 1.5rem;
+    line-height: 28px;
+}
+
+
+/*  Our-services  */
+
+.Our-services{
+    height: 1000px;
+    color: white;
+}
+
+.Our-services h2{
+    margin-top: 150px;
+    font-size: 4.5rem;
+}
+
+.Services{
+    display: flex;
+    justify-content: space-around;
+}
+
+.service{
+    display: flex ;
+    width: 31%;
+    height: 325px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(25, 25, 25);;
+    border-radius: 1rem;
+}
+
+i{
+    font-size: 50px;
+    margin: 20px 0;
+    color: rgb(249, 0, 77);
+}
+
+.service h3{
+    font-size: 2rem;
+}
+
+.service button{
+    background-color: rgb(249, 0, 77);
+    border-radius: 3rem;
+    padding: 0.5rem 2rem;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.5s;
+}
+
+.service button:hover{
+    background-color: rgb(16, 16, 16);
+    border: 1px solid rgb(249, 0, 77);
+}
+
+.service p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 0 20px;
+    margin-bottom: 1rem;
+    color: rgba(255, 204, 255, 0.8);
+}
